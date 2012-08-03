@@ -1,0 +1,25 @@
+{
+    "name": "redis-admin",
+    "version": "0.0.1",
+    "description": "Redis admin",
+    "contributors" : [
+        "Igor Skrynkovskyy <skrynkovskyy@gmail.com>"
+    ],
+    "scripts": {
+        "start": "node bin/app.js"
+    },
+    "engines" : {
+        "node" : ">=0.6.6",
+        "npm" : ">=1.1.0"
+    },
+    "dependencies": {
+        "express": "",
+        "express-namespace": "",
+        "redis": "",
+        "hiredis": ""
+    },
+    "devDependencies": {
+        "mocha": "",
+        "request": ""
+    }
+}
